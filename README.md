@@ -47,14 +47,18 @@ Rest between blocks:    120 seconds
 Target session duration: Approximately 27 minutes, subject to verification against the implemented timing.
 
 System Operation
+Controls
+- At idle: one press starts. Red LED and buzzer pulse three times before stimulation.
+- While running: one press pauses. All outputs turn off immediately.
+- While paused: two presses within 400 ms resume the interrupted phase. One press while paused does nothing alone.
+- At completion: Red LED and buzzer pulse three times, then the controller returns to idle.
 
-1. Press the button to start the protocol.
-2. Red LED and buzzer activate three times.
-3. White LED follows the programmed iTBS pulse sequence.
-4. The system automatically executes stimulation and rest intervals.
-3. Press the button to pause or resume.
-4. Red LED and buzzer signal session completion.
-
+Requested timing
+- Each burst: 3 pulses of 10 ms at 50 ms between pulse starts (40 ms OFF between pulses).
+- 10 bursts per train; 100 ms gap after the third pulse of a burst, except after the final burst in the train.
+- 8 s rest after every train, including the last train in each block.
+- 20 trains per block, 5 blocks, 120 s between blocks.
+- Total: 3,000 pulses. With these explicit gap definitions, the calculated full sequence is 24 min 40 s, plus 3.6 s for the start/end markers; not 27 minutes. Pauses add time. Recheck the source protocol if the intended session is 27 minutes.
 Physical Implementation
 
 The circuit was assembled using an Arduino Nano and a mini breadboard, then integrated into a compact 3D-printed enclosure with accessible controls and LED indicators.
