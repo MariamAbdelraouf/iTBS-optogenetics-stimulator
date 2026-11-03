@@ -21,6 +21,7 @@ Mini Breadboard:       Supports circuit assembly and component connections
 USB Cable:             Supplies power and allows Arduino programming
 Jumper Wires:           Connect the electronic components
 3D-Printed Enclosure:   Houses and protects the prototype
+
 ------------------
 
 iTBS Protocol
