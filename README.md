@@ -10,27 +10,27 @@ The prototype consists of the following components:
 
 Component           Function
 
-Arduino Nano:         Main microcontroller responsible for generating and controlling the iTBS sequence
+1. Arduino Nano:         Main microcontroller responsible for generating and controlling the iTBS sequence
 
-White LED:            Visual representation of the stimulation pulses
+2. White LED:            Visual representation of the stimulation pulses
 
-Red LED:              Indicates the beginning and completion of the protocol
+3. Red LED:              Indicates the beginning and completion of the protocol
 
-Push Button:          Starts, pauses, and resumes the stimulation sequence
+4. Push Button:          Starts, pauses, and resumes the stimulation sequence
 
-Buzzer:               Provides audible notifications at the beginning and end
+5. Buzzer:               Provides audible notifications at the beginning and end
 
-330 Ω Resistor:       Limits current through the white LED
+6. 330 Ω Resistor:       Limits current through the white LED
 
-220 Ω Resistor:        Limits current through the red LED
+7. 220 Ω Resistor:        Limits current through the red LED
 
-Mini Breadboard:       Supports circuit assembly and component connections
+8. Mini Breadboard:       Supports circuit assembly and component connections
 
-USB Cable:             Supplies power and allows Arduino programming
+9. USB Cable:             Supplies power and allows Arduino programming
 
-Jumper Wires:           Connect the electronic components
+10. Jumper Wires:           Connect the electronic components
 
-3D-Printed Enclosure:   Houses and protects the prototype
+11. 3D-Printed Enclosure:   Houses and protects the prototype
 
 
 iTBS Protocol
