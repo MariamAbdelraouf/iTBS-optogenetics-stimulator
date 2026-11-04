@@ -54,7 +54,7 @@ Controls
 - At completion: Red LED and buzzer pulse three times, then the controller returns to idle.
 
 Requested timing
-- Each burst: 3 pulses of 10 ms at 50 ms between pulse starts (40 ms OFF between pulses).
+- Each burst: 3 pulses of 10 ms at 50 ms between pulse starts (50 ms OFF between pulses).
 - 10 bursts per train; 100 ms gap after the third pulse of a burst, except after the final burst in the train.
 - 8 s rest after every train, including the last train in each block.
 - 20 trains per block, 5 blocks, 120 s between blocks.
